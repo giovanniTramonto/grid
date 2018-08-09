@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Grid</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-column-gap: 20px;
+    }
+    .box {
+      padding: 20px;
+      background: grey;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <main class="main box">
+      Main Content
+    </main>
+    <aside class="aside box">
+      Aside Content
+    </aside>
+  </div>
+</body>
+</html>
